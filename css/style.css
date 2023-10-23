@@ -172,3 +172,72 @@ header {
 .search-bar input {
     padding: 0.5em; 
 }
+
+/* Filters */
+
+.filters {
+    padding: 0 2em 0 2em;
+}
+
+.filters-content {
+    display: flex;
+    align-items: center;
+}
+
+.filters-title {
+    margin-right: 10px; 
+}
+
+.filters h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.button-group {
+    display: flex;
+}
+
+.filter-button {
+    margin-right: 10px; 
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid var(--grey-tint-2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.filter-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filters-info{
+    padding-top: 10px;
+}
+
+.filters-info p i.fa-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--grey-tint-2);
+    margin-right: 8px;
+    font-size: 14px;
+}
