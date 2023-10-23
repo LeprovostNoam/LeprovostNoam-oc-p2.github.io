@@ -677,4 +677,17 @@ footer .column h3 {
     .activity-card {
         padding: 0;
     }
+
+    /* Footer */
+
+    footer {
+        padding: 0;
+    }
+    footer .footer-container {
+        flex-direction: column;
+    }
+    footer .column {
+        margin-right: auto;
+        padding-left: 2em;
+    }
 }
