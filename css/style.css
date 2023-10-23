@@ -501,12 +501,24 @@ footer .column h3 {
 /* responsive on phones */
 
 @media screen and (min-width: 768.1px) {
+    /* Search bar */
     .search-bar a span {
         display: block;
     }
 
     .search-bar button i {
         display: none;
+    }
+
+    /* Filters */
+
+    .filters-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-group {
+        margin-top: 10px; 
     }
 }
 
@@ -563,4 +575,18 @@ footer .column h3 {
         width: 50px;
         border-radius: 15px;
     }
+
+    /* Filters */
+
+    .button-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .filter-button {
+        width: calc(50% - 1em); 
+        margin-bottom: 10px; 
+    }
+    
 }
