@@ -554,6 +554,15 @@ footer .column h3 {
     .button-group {
         margin-top: 10px; 
     }
+
+    /* Activity */
+
+    .activity-card a img {
+        height: 200px;
+    }
+    .activity-card a .card-content{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -653,5 +662,19 @@ footer .column h3 {
     }
     .hebergements-cards {
         margin-top: 33px;
+    }
+
+    /* Activities */
+
+    .activity-card a {
+        flex: 1 1 100%;
+    }
+
+    .activity-card a img {
+        height: 141px;
+    }
+    
+    .activity-card {
+        padding: 0;
     }
 }
