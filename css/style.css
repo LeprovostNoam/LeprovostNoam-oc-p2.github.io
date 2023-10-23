@@ -262,6 +262,7 @@ header {
 
 .card-title {
     font-size: 16px;
+    margin-top: 0.4em!important;
 }
 
 .euro {
@@ -341,6 +342,7 @@ header {
     font-size: 14px;
     gap: 8px;
     margin: 0;
+    margin-bottom: 0.4em!important;
 }
 
 .hebergements-cards {
