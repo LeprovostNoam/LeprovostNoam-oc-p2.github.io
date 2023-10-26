@@ -403,7 +403,7 @@ header {
 
 .activity-card a .card-content {
     padding: 1em;
-    height: 4em;
+    height: 4em!important;
 }
 
 .activity-card a .card-title {
@@ -559,9 +559,6 @@ footer .column h3 {
 
     /* Activity */
 
-    .activity-card a img {
-        height: 200px;
-    }
     .activity-card a .card-content{
         height: auto;
     }
